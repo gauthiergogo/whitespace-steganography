@@ -8,10 +8,14 @@ Book quote / working example:
 
 wget -O - 'https://en.wikipedia.org/wiki/User:ToBeFree/sandbox?action=edit' | grep -E '\[[0-9]+\]' | sed 's/\s\s\s\s/1/g' | sed 's/\s\s\s/0/g' | sed -r 's/\[[0-9]+\]//g' | tr -d -c '10' | fold -w 6 | tr '\n' ' ' > binary.txt
 
-Add a space to the end of binary.txt, then pass it to binary-base64-tobefree.sh to get the original Base64 code.
+Add a space to the end of binary.txt. Use a text editor like nano, gedit or Kate. Then continue:
+
+bash binary-base64-tobefree.sh binary.txt | base64 -d > decoded-output.txt
 
     wget -O - 'https://en.wikipedia.org/wiki/User:ToBeFree/sandbox?action=edit' | grep -E '\[[0-9]+\]' | sed 's/\s\s\s\s/1/g' | sed 's/\s\s\s/0/g' | sed -r 's/\[[0-9]+\]//g' | tr -d -c '10' | fold -w 6 | tr '\n' ' ' > binary.txt
     
-    echo "Add a space to the end of binary.txt, then pass it to binary-base64-tobefree.sh to get the original Base64 code."
+    echo "Add a space to the end of binary.txt. Use a text editor like nano, gedit or Kate. Then continue:"
+    
+    bash binary-base64-tobefree.sh binary.txt | base64 -d > decoded-output.txt
 
 Useful for encoding: Kate for Linux has a "block/rectangular selection" tool.
