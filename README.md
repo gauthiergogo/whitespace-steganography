@@ -1,5 +1,7 @@
 # Whitespace Steganography
 
+Multiple licenses: You do not have to use the GPL: This code is also part of a freely licensed book. Please have a look at infiniteadventures.de for more information.
+
 Whitespace steganography for Infinite Adventures 2
 
 Use HTML's interpretation of multiple spaces to hide base64 code on any HTML page. Used by protagonist "Free" in the book "Infinite Adventures 2". http://infiniteadventures.de
