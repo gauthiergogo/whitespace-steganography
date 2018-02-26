@@ -1,4 +1,4 @@
-This code is part of a freely licensed book. Please have a look at infiniteadventures.de
+Multiple licenses: You do not have to use the GPL: This code is also part of a freely licensed book. Please have a look at infiniteadventures.de for more information.
 
 If you like to, you can also use the following license:
                     
