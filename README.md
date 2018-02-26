@@ -12,4 +12,4 @@ Add a space to the end of binary.txt. Use a text editor like nano, gedit or Kate
     
     bash binary-base64-tobefree.sh binary.txt | base64 -d > decoded-output.txt
 
-Useful for encoding: Kate for Linux has a "block/rectangular selection" tool.
+Useful for ENcoding: Kate for Linux has a "block/rectangular selection" tool.
