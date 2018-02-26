@@ -1,0 +1,4 @@
+#!/bin/bash
+cat $1 |
+sed 's/1/XXSPACE4XX/g' |
+sed 's/0/XXSPACE3XX/g'

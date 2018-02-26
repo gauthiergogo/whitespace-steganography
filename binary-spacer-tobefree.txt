@@ -1,0 +1,4 @@
+#!/bin/bash
+cat $1 |
+sed 's/1/.    ./g' |
+sed 's/0/.   ./g'
