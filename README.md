@@ -8,6 +8,8 @@ Book quote / working example:
 
 wget -O - 'https://en.wikipedia.org/wiki/User:ToBeFree/sandbox?action=edit' | grep -E '\[[0-9]+\]' | sed 's/\s\s\s\s/1/g' | sed 's/\s\s\s/0/g' | sed -r 's/\[[0-9]+\]//g' | tr -d -c '10' | fold -w 6 | tr '\n' ' ' > binary.txt
 
+Add a space to the end of binary.txt, then pass it to binary-base64-tobefree.sh to get the original Base64 code.
+
     wget -O - 'https://en.wikipedia.org/wiki/User:ToBeFree/sandbox?action=edit' | grep -E '\[[0-9]+\]' | sed 's/\s\s\s\s/1/g' | sed 's/\s\s\s/0/g' | sed -r 's/\[[0-9]+\]//g' | tr -d -c '10' | fold -w 6 | tr '\n' ' ' > binary.txt
 
 Useful for encoding: Kate for Linux has a "block/rectangular selection" tool.
