@@ -1,5 +1,10 @@
 # Whitespace Steganography
 
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
 Multiple licenses: You do not have to use the GPL: This code is also part of a freely licensed book. Please have a look at infiniteadventures.de for more information.
 
 Whitespace steganography for Infinite Adventures 2
