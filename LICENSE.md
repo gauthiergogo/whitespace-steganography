@@ -1,7 +1,3 @@
-Multiple licenses: You do not have to use the GPL: This code is also part of a freely licensed book. Please have a look at infiniteadventures.de for more information.
-
-If you like to, you can also use the following license:
-                    
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
