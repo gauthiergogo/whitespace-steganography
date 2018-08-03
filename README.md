@@ -7,11 +7,11 @@ GNU General Public License for more details.
 
 Multiple licenses: You do not have to use the GPL: This code is also part of a freely licensed book. Please have a look at infiniteadventures.de for more information.
 
-## Whitespace Steganography for Infinite Adventures 2
+## Whitespace Steganography
 
-Use HTML's interpretation of multiple spaces to hide base64 code on any HTML page. Used by protagonist "Free" in the book "Infinite Adventures 2". http://infiniteadventures.de
+Use HTML's interpretation of multiple spaces to hide base64 code on any HTML page.
 
-Book quote / example:
+Example:
 
     wget -O - 'https://en.wikipedia.org/wiki/User:ToBeFree/sandbox?action=edit' | grep -E '\[[0-9]+\]' | sed 's/\s\s\s\s/1/g' | sed 's/\s\s\s/0/g' | sed -r 's/\[[0-9]+\]//g' | tr -d -c '10' | fold -w 6 | tr '\n' ' ' > binary.txt
 
